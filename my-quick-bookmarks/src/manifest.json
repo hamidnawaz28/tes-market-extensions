@@ -1,0 +1,19 @@
+{
+  "name": "My Quick Bookmarks",
+  "description": "See all your bookmarks in one go and search for the new content and bookmarks queries and see bookmarks in new tab.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": ["bookmarks"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  }
+}

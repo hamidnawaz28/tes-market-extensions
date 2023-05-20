@@ -1,0 +1,20 @@
+{
+  "name": "Quote Generator",
+  "description": "Generate new quotes and keep them on every new tab",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "host_permissions": ["https://api.api-ninjas.com/*"],
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  }
+}

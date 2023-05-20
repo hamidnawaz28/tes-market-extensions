@@ -1,0 +1,22 @@
+{
+  "name": "Activity Time 4u",
+  "description": "Keep track of the time you spend on browser, take a rest of 15 minutes after 60 minutes work.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_icon": { "16": "logo.png", "32": "logo.png", "48": "logo.png", "128": "logo.png" }
+  },
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  }
+}
