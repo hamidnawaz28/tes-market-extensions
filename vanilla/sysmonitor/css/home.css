@@ -1,0 +1,652 @@
+.content h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.ql-icon img {
+    max-width: 70px;
+}
+
+.hp-quicklink:hover {
+    box-shadow: none;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: #fafafa;
+    border-radius: 0px;
+}
+
+.hp-quicklink {
+    width: 112px;
+    height: 100px;
+    display: inline-block;
+    background: none;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: none;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: 0;
+}
+
+/* .hp-quicklink .ql-circle {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        margin: 10px 31px 8px;
+        position: relative;
+    } */
+.hp-quicklink .ql-circle {
+    height: 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp-quicklink .ql-icon {
+    /*  width: 24px;
+        height: 24px; */
+    /*  margin: 12px 0px 0px -5px; */
+    border-radius: 2px;
+    position: absolute;
+}
+
+.hp-quicklink .ql-titletext {
+    font-size: 12px;
+    text-align: left;
+    line-height: 16px;
+    padding: 6px 0px 6px 4px;
+    color: #757575;
+    text-align: center;
+}
+
+.admarketplace,
+.adbistro,
+.mocha {
+    height: 32px;
+}
+
+.admarketplace img {
+    width: 32px;
+    border-radius: 20px;
+}
+
+.admarketplace>div {
+    line-height: 32px;
+    margin-top: -31px;
+    margin-left: 38px;
+}
+
+.adbistro>img {
+    width: 60px;
+    border-radius: 0px;
+    float: left;
+}
+
+.adbistro>div {
+    line-height: 32px;
+    margin-left: 65px;
+}
+
+.mocha>img,
+.namespace>img {
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 0px;
+    float: left;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.mocha>div,
+.namespace>div {
+    line-height: 32px;
+    margin-left: 38px;
+}
+
+
+#quicklink-amazon .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/amazon.png) 0 0;
+    background-size: 24px 24px;
+}
+
+#quicklink-yahoomail .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -819px 0;
+    background-size: auto 24px;
+}
+
+#quicklink-gmail .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -270px 0;
+    background-size: auto 24px;
+}
+
+/* #quicklink-myemailsimplified .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -270px 0;
+    background-size: auto 24px;
+} */
+
+#quicklink-facebook .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/facebook.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-youtube .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -843px 0;
+    background-size: auto 24px;
+}
+
+#quicklink-macys .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/macys-plain.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-nordvpn .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/nordvpn.png) 0 0;
+    background-size: 24px 24px;
+}
+
+#quicklink-twitter .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -794px 0;
+    background-size: auto 24px;
+}
+
+#quicklink-hotels .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/hotels.png) 0 0;
+    background-size: auto 24px;
+}
+
+#quicklink-ancestry .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/ancestry.png) 0 0;
+    background-size: auto 24px;
+}
+
+#quicklink-trivago .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/trivago.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-vrbo .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/vrbo.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-agoda .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/agoda.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-couponsventure .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/shoppingcart.svg) 0 0;
+    background-color: black;
+    background-size: cover;
+}
+
+#quicklink-shoppingventure .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/shoppingventure.gif) 0 0;
+    background-color: black;
+    background-size: cover;
+}
+
+#flowerimage {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -197px 0;
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+#quicklink-flowers {
+    margin-left: 10px;
+    margin-right: 19px;
+}
+
+#quicklink-sportsnews .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/sports.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-aliexpress .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/aliexpress.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-flipkart .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/flipkart.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-flowers:hover {
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0) !important;
+}
+
+#quicklink-samsung .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/samsung_100.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-verizonwireless .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/verizonwireless.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-rakuten .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/rakuten.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-taxact .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/taxact.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-hrblock .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/hrblock.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-turbotax .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/turbotax-check.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-kohls .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/kohls_100.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-jcpenney .ql-icon {
+    background: url(//cdn.45tu1c0.com/account/23740/200/1521228087119.jpg) 0 0;
+    background-size: cover;
+}
+
+#quicklink-yahoo_addlmedia .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/yahoo.jpg) 0 0;
+    background-size: cover;
+}
+
+#quicklink-argos .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/argos.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-next .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/next.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-three .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/three.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-tastecard .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/tastecard.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-audible .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/audible.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-showtime .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/showtime.png) 0 0;
+    background-size: cover;
+}
+
+#quicklink-reebok .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/reebok.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+/* #quicklink-nationalweatheragency .ql-icon {
+    background: url(/Content/img/Icons/weatherAgencyIcon.jpg) 0 0;
+    background-size: 24px;
+} */
+
+#quicklink-totalrecipesnetwork .ql-icon {
+    background: url(/Content/img/Icons/recipesIcon.jpg) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-bookingbuddy .ql-icon {
+    background: url(/Content/Images/quicklinkIcons/bookingbuddy.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-sears .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/sears_100.png) 0 0;
+    background-size: 24px;
+}
+
+#quicklink-homedepot .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/home_depot.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-dicks .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/dicks_sporting_goods.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-walmart .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/walmart_clean.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-overstock .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/overstock_100.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-accuweather .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/accuweather.png) 0 0;
+    background-size: contain;
+}
+
+
+
+#quicklink-aliexpress .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/aliexpress.png) 0 0;
+    background-size: contain;
+}
+
+#quicklink-gap .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/gap.png) 0 0;
+    background-size: contain;
+}
+
+#quicklink-homeaway .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/homeaway.png) 0 0;
+    background-size: contain;
+}
+
+
+#quicklink-addl_media_autonews .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/carbuyer.jpg) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_travel .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/bookingbuddy.jpg) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_retail .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/kelkoo.jpg) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_insurance .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/quotezone.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_technews .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/itpro.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_fitness .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/cyclist.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_techcrunch .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/techcrunch.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_dreamvegas .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/dreamvegas.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-bookingdotcom .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/bookingdotcom.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-quickbooks .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/quickbooks.png) 0 0;
+    background-size: cover;
+    background-size: 24px;
+}
+
+#quicklink-irs .ql-icon {
+    background: url(/Content/Images/quicklinkIcons/IRS.png) 0 0;
+    background-size: 24px;
+}
+
+/* #quicklink-news .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/globe_100.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+} */
+
+#quicklink-addl_media_utility .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/qzcompare.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_entrepreneur .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/entrepreneur.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_thedailymeal .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/thedailymeal.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_drivingelectric .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/drivingelectric.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_india_sports .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/india_sports.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_india_casino .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/india_casino.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-addl_media_pgfc .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/pgcf.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-banggood .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/banggood.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-myticketstoindia .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/myticketstoindia.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-livingsocial .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/livingsocial.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-shein .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/shein.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-stubhub .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/stubhub.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-expedia_yhs .ql-icon,
+#quicklink-expedia .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/expedia.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-nordstrom .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/nordstrom.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-stubhub .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/stubhub.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-staples .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/staples.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-iberia .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/iberia.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-mancrate .ql-icon {
+    margin-left: 10px;
+    margin-right: 19px;
+}
+
+#quicklink-globaldesi .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/globaldesi.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-biba .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/biba.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-pharmeasy .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/pharmeasy.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-vodafone .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/vodafone.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-asda .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/asda.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-fitbit .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/fitbit.jpg) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#quicklink-lenovo .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/lenovo.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}
+
+#mancrateimage {
+    background: url(/Content/Images/quicklinkIcons/mancratesslate.png) 0 0;
+    width: 48px;
+    height: 48px;
+    margin-left: 4px;
+}
+
+#mandecorations {
+    font-size: 10px;
+    margin-top: -18px;
+    position: absolute;
+    height: 66px;
+    width: 80px;
+    margin-left: -16px;
+    z-index: -1;
+    background-color: rgba(154, 234, 255, .7);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.admarketplaceImpression {
+    width: 1px;
+    height: 1px;
+    border: 0;
+    position: absolute;
+}
+
+/* #quicklink-videos .ql-icon {
+    background: url(/Content/Home/Email/Sprites/Sprite_Email_V9.png) -442px 0;
+    background-size: auto 24px;
+} */
+
+#quicklink-norton .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/norton.png);
+    background-size: auto 24px;
+}
+
+#quicklink-totalpackagetracker .ql-icon {
+    background: url(/Content/img/icons/packagesIcon.png);
+    background-size: auto 24px;
+}
+
+#quicklink-covid19updates .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/covid_tile.png);
+    background-size: auto 24px;
+}
+
+#quicklink-freetemplatespro .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/templatesql.png);
+    background-size: auto 24px;
+}
+
+#quicklink-thenewscorner .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/news-5.png);
+    background-size: auto 24px;
+}
+
+#quicklink-walmart_new .ql-icon {
+    background: url(//dap2y8k6nefku.cloudfront.net/quicklinkicons/walmart_clean.png) 0 0;
+    background-size: contain;
+    background-size: 24px;
+}

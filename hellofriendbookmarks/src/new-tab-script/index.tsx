@@ -3,7 +3,7 @@ import '../../base.css'
 import App from './App'
 
 const renderBidButton = () => {
-  const rootRef = document.getElementById('root') as HTMLElement
+  const rootRef = document.getElementById('tool') as HTMLElement
   const root = createRoot(rootRef)
   root.render(<App />)
 }

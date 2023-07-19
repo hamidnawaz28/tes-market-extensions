@@ -69,7 +69,7 @@ const config = {
       ],
     }),
     new ZipPlugin({
-      path: '/hellofriendbookmarks',
+      path: '',
       filename: 'hellofriendbookmarks.zip',
       extension: 'zip',
       fileOptions: {

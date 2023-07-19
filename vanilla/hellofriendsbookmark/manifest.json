@@ -1,0 +1,29 @@
+{
+  "name": "Hello Friend Bookmarks",
+  "description": "Keep your added bookmarks infront of you",
+  "version": "1.3",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  }
+}

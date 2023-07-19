@@ -1,0 +1,19 @@
+{
+    "name": "Word Cloud",
+    "version": "1.4",
+    "manifest_version": 3,
+    "description": "Get to know the system information and monitor it",
+    "permissions": [
+        "system.cpu",
+        "system.memory"
+    ],
+    "icons": {
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    }
+}

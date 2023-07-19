@@ -1,0 +1,16 @@
+{
+    "name": "Memetor",
+    "version": "1.4",
+    "manifest_version": 3,
+    "description": "Generate random meme on the go",
+    "permissions": [],
+    "icons": {
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    }
+}

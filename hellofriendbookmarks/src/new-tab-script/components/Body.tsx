@@ -13,18 +13,11 @@ import { Button } from 'antd';
 const { Search } = Input;
 
 const Body = ({ title }: any) => {
-    const [search, setSearch] = useState('')
-    const onSearch = () => { if (search != '') Browser.tabs.create({ url: `https://www.bing.com/?=&=&q=${search}&n=` }) };
-    const [show, setShow] = useState(false)
+
     const [label, setLabel] = useState('')
     const [url, setUrl] = useState('')
 
     const [bookmarks, setBookmarks] = useState<any>([])
-
-    const getData = async () => {
-        const bookmarks = await Browser.bookmarks.getTree()
-        setBookmarks(bookmarks?.[0] || {})
-    }
 
     const initData = async () => {
         const bookmark = await getSyncStorage()
@@ -48,32 +41,6 @@ const Body = ({ title }: any) => {
 
     return (
         <Box>
-            <Box sx={{
-                display: "flex",
-                width: "50%",
-                margin: "auto",
-                gridGap: "20px",
-                paddingTop: "10%",
-                alignItems: "baseline"
-            }}>
-                <Box sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-
-                }}>
-                    <img src="logo.png" height={'35px'} alt="" />
-                    <Box sx={{ fontWeight: "bold", whiteSpace: "nowrap" }}>{title}</Box>
-                </Box>
-                <Search
-                    placeholder="Search"
-                    size="large"
-                    value={search}
-                    enterButton="Search"
-                    onChange={(e) => setSearch(e.target.value)}
-                    onSearch={onSearch}
-                />
-            </Box>
             <Box sx={{ width: '50%', margin: "auto", paddingTop: "60px" }}>
                 <Box sx={{
                     display: "flex",

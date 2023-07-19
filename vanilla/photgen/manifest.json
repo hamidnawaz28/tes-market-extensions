@@ -1,0 +1,16 @@
+{
+    "name": "photgen",
+    "version": "1.4",
+    "manifest_version": 3,
+    "description": "Generate random unsplash photos of mountaines",
+    "permissions": [],
+    "icons": {
+        "128": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    }
+}
